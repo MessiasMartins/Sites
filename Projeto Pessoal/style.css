@@ -1,0 +1,52 @@
+
+body{
+    background: url(imagens/capa.png);
+    overflow-x: hidden;
+}
+
+
+.footer-text{
+    text-align: center;
+    position: center;
+    color: aliceblue;
+}
+
+.text-cover{
+    text-align: center;
+    color: skyblue;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav.navbar-transparent{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+}
+
+.section{
+    background color: black;
+}
+
+/*---------------- Footer fixed in boot --------------------*/
+
+footer{
+    background: gray;
+    padding: 50px 0px 20px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+html,body,.cover {
+    height: 100%;
+    overflow: auto;
+}
+
+/*---------------- Tipografia --------------------*/
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 50px;
+}
